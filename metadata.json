@@ -1,0 +1,6 @@
+{
+  "name": "LEARNOVA - Online Learning Management System",
+  "description": "Premium full-stack online learning platform with course marketplace, interactive classroom, and role-based student, instructor, and admin dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

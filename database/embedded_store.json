@@ -1,0 +1,314 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Admin Learnova",
+      "email": "admin@learnova.edu",
+      "password": "$2a$10$K8xSj4b3r9xY4Nf1qN0hbe47u5aZkU9kL6w7gT2mR3vP1o8s9jK4m",
+      "role": "admin",
+      "bio": "Chief System Administrator & Academic Supervisor at LEARNOVA.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "created_at": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "user_id": 2,
+      "name": "Dr. Sarah Chen",
+      "email": "sarah.chen@learnova.edu",
+      "password": "$2a$10$K8xSj4b3r9xY4Nf1qN0hbe47u5aZkU9kL6w7gT2mR3vP1o8s9jK4m",
+      "role": "instructor",
+      "bio": "Senior AI Researcher & Full-Stack Systems Architect with 12+ years experience in Silicon Valley.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80",
+      "created_at": "2026-01-20T09:30:00.000Z"
+    },
+    {
+      "user_id": 3,
+      "name": "Alex Rivera",
+      "email": "alex.rivera@learnova.edu",
+      "password": "$2a$10$K8xSj4b3r9xY4Nf1qN0hbe47u5aZkU9kL6w7gT2mR3vP1o8s9jK4m",
+      "role": "instructor",
+      "bio": "Staff Frontend Architect & Design Systems Lead. Creator of top-rated UI frameworks.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "created_at": "2026-01-25T11:00:00.000Z"
+    },
+    {
+      "user_id": 4,
+      "name": "Prof. Priya Patel",
+      "email": "priya.patel@learnova.edu",
+      "password": "$2a$10$K8xSj4b3r9xY4Nf1qN0hbe47u5aZkU9kL6w7gT2mR3vP1o8s9jK4m",
+      "role": "instructor",
+      "bio": "Cloud Infrastructure & Distributed Database Specialist at leading FinTech platforms.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      "created_at": "2026-02-01T14:20:00.000Z"
+    },
+    {
+      "user_id": 5,
+      "name": "Shaik Rauf",
+      "email": "student@learnova.edu",
+      "password": "$2a$10$K8xSj4b3r9xY4Nf1qN0hbe47u5aZkU9kL6w7gT2mR3vP1o8s9jK4m",
+      "role": "student",
+      "bio": "B.Tech CSE Student aspiring Full-Stack Software Engineer.",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=200&auto=format&fit=crop&q=80",
+      "created_at": "2026-02-10T16:00:00.000Z"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": 1,
+      "title": "Full-Stack Web Development Bootcamp: React, Node & MySQL",
+      "description": "Master modern web development from HTML, CSS and TypeScript to high-performance Express backends, REST APIs, and scalable MySQL relational databases.",
+      "instructor_id": 2,
+      "price": 79.99,
+      "duration": 48,
+      "category": "Web Development",
+      "level": "Beginner to Advanced",
+      "thumbnail": "/src/assets/images/course_web_dev_1793960054939.jpg",
+      "rating": 4.92,
+      "enrolled_count": 1240,
+      "created_at": "2026-02-15T10:00:00.000Z"
+    },
+    {
+      "course_id": 2,
+      "title": "Applied Artificial Intelligence & Machine Learning with Python",
+      "description": "A comprehensive practical masterclass covering neural network architectures, predictive modeling, NLP pipelines, and enterprise model deployment.",
+      "instructor_id": 2,
+      "price": 89.99,
+      "duration": 56,
+      "category": "Artificial Intelligence",
+      "level": "Intermediate",
+      "thumbnail": "/src/assets/images/course_ai_datasci_1793960056847.jpg",
+      "rating": 4.95,
+      "enrolled_count": 980,
+      "created_at": "2026-02-18T12:00:00.000Z"
+    },
+    {
+      "course_id": 3,
+      "title": "Modern UI/UX Design Masterclass: Systems, Tokens & Prototypes",
+      "description": "Learn how top tech organizations craft design systems, accessibility tokens, responsive wireframes, and production-ready interactive Figma prototypes.",
+      "instructor_id": 3,
+      "price": 64.99,
+      "duration": 32,
+      "category": "UI/UX Design",
+      "level": "All Levels",
+      "thumbnail": "/src/assets/images/course_ui_ux_1793960057128.jpg",
+      "rating": 4.88,
+      "enrolled_count": 760,
+      "created_at": "2026-02-20T14:00:00.000Z"
+    },
+    {
+      "course_id": 4,
+      "title": "Cloud Computing & Microservices: AWS, Docker & Kubernetes",
+      "description": "Architect fault-tolerant microservices, configure automated CI/CD pipelines, containerize backend apps, and manage distributed cloud workloads.",
+      "instructor_id": 4,
+      "price": 84.99,
+      "duration": 40,
+      "category": "Cloud Computing",
+      "level": "Advanced",
+      "thumbnail": "/src/assets/images/course_cloud_dev_1793960056715.jpg",
+      "rating": 4.89,
+      "enrolled_count": 610,
+      "created_at": "2026-02-22T09:00:00.000Z"
+    },
+    {
+      "course_id": 5,
+      "title": "Java Enterprise Programming & Spring Boot Architecture",
+      "description": "Deep dive into object-oriented design, multi-threading, Spring Boot microservices, Hibernate ORM, and secure enterprise RESTful web services.",
+      "instructor_id": 4,
+      "price": 74.99,
+      "duration": 44,
+      "category": "Java Programming",
+      "level": "Intermediate",
+      "thumbnail": "/src/assets/images/course_web_dev_1793960054939.jpg",
+      "rating": 4.84,
+      "enrolled_count": 520,
+      "created_at": "2026-02-24T15:00:00.000Z"
+    },
+    {
+      "course_id": 6,
+      "title": "Database Management Systems & Advanced SQL Optimization",
+      "description": "Master relational database theory, index query optimization, ACID transactions, stored procedures, normalization, and MySQL Workbench administration.",
+      "instructor_id": 2,
+      "price": 59.99,
+      "duration": 28,
+      "category": "Database Management",
+      "level": "Beginner to Intermediate",
+      "thumbnail": "/src/assets/images/course_cloud_dev_1793960056715.jpg",
+      "rating": 4.91,
+      "enrolled_count": 890,
+      "created_at": "2026-02-26T11:00:00.000Z"
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": 1,
+      "course_id": 1,
+      "lesson_title": "Course Introduction & Modern Web Architecture",
+      "content": "Welcome to Full-Stack Web Development! In this lesson we unpack the client-server lifecycle, HTTP request headers, REST conventions, and development environment setup.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 1,
+      "duration": 18
+    },
+    {
+      "lesson_id": 2,
+      "course_id": 1,
+      "lesson_title": "Mastering React 19 State & Component Lifecycle",
+      "content": "Deep dive into functional React hooks: useState, useEffect, useCallback, custom hooks, and immutable state management patterns for interactive web apps.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 2,
+      "duration": 28
+    },
+    {
+      "lesson_id": 3,
+      "course_id": 1,
+      "lesson_title": "Building Robust Express.js RESTful APIs",
+      "content": "Learn how to construct clean Express routers, implement CORS, parse request bodies, validate incoming DTO payloads, and handle errors centralized.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 3,
+      "duration": 34
+    },
+    {
+      "lesson_id": 4,
+      "course_id": 1,
+      "lesson_title": "Connecting MySQL 8.0 with mysql2 & Connection Pooling",
+      "content": "Step-by-step implementation of mysql2 connection pools in Node.js, parameterized queries to prevent SQL injections, and transaction management.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 4,
+      "duration": 40
+    },
+    {
+      "lesson_id": 5,
+      "course_id": 1,
+      "lesson_title": "User Authentication with bcrypt & JWT/Session Security",
+      "content": "Protecting API routes with password hashing, salt rounds, session cookies, Bearer tokens, and role-based access control (RBAC).",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 5,
+      "duration": 36
+    },
+    {
+      "lesson_id": 6,
+      "course_id": 2,
+      "lesson_title": "Foundations of Machine Learning & Python Ecosystem",
+      "content": "Setting up NumPy, Pandas, Scikit-Learn, and understanding supervised vs unsupervised learning workflows with real-world datasets.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 1,
+      "duration": 25
+    },
+    {
+      "lesson_id": 7,
+      "course_id": 2,
+      "lesson_title": "Deep Learning Fundamentals with PyTorch",
+      "content": "Tensors, computation graphs, forward pass, backpropagation, gradient descent optimizers, and loss functions explained visually.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 2,
+      "duration": 42
+    },
+    {
+      "lesson_id": 8,
+      "course_id": 2,
+      "lesson_title": "Computer Vision & Convolutional Neural Networks",
+      "content": "Building CNNs for feature extraction, pooling, edge detection, image classification, and transfer learning with pre-trained models.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 3,
+      "duration": 38
+    },
+    {
+      "lesson_id": 9,
+      "course_id": 3,
+      "lesson_title": "Principles of Visual Hierarchy & Typographic Scale",
+      "content": "Mastering the 60-30-10 color rule, modular type scales, vertical rhythm, and contrast ratios compliant with WCAG AA standards.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 1,
+      "duration": 22
+    },
+    {
+      "lesson_id": 10,
+      "course_id": 3,
+      "lesson_title": "Building Scalable Design Systems & Tokens",
+      "content": "Defining atomic design tokens: colors, spacing scales, elevation, radius, component variants, and interactive micro-states.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 2,
+      "duration": 35
+    },
+    {
+      "lesson_id": 11,
+      "course_id": 4,
+      "lesson_title": "Cloud Computing Fundamentals & AWS Core Services",
+      "content": "Understanding EC2 compute, S3 object storage, VPC networking, IAM security policies, and regional availability zones.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 1,
+      "duration": 30
+    },
+    {
+      "lesson_id": 12,
+      "course_id": 4,
+      "lesson_title": "Docker Containerization & Multi-Stage Builds",
+      "content": "Writing optimized Dockerfiles, docker-compose orchestration, environment isolation, and production image caching techniques.",
+      "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "sequence_no": 2,
+      "duration": 32
+    }
+  ],
+  "enrollment": [
+    {
+      "enrollment_id": 1,
+      "user_id": 5,
+      "course_id": 1,
+      "lesson_title": "Building Robust Express.js RESTful APIs",
+      "content": "Currently studying state management and hooks.",
+      "enrollment_date": "2026-03-01 10:30:00",
+      "progress": 60,
+      "status": "In Progress",
+      "last_accessed_lesson_id": 2,
+      "completed_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "enrollment_id": 2,
+      "user_id": 5,
+      "course_id": 3,
+      "lesson_title": "Principles of Visual Hierarchy & Typographic Scale",
+      "content": "Enrolled in UI/UX masterclass.",
+      "enrollment_date": "2026-03-04 14:15:00",
+      "progress": 100,
+      "status": "Completed",
+      "last_accessed_lesson_id": 10,
+      "completed_lessons": [
+        9,
+        10
+      ]
+    },
+    {
+      "enrollment_id": 3,
+      "user_id": 5,
+      "course_id": 2,
+      "lesson_title": "Foundations of Machine Learning & Python Ecosystem",
+      "content": "Enrolled in AI masterclass.",
+      "enrollment_date": "2026-03-05 09:00:00",
+      "progress": 0,
+      "status": "Enrolled",
+      "last_accessed_lesson_id": 6,
+      "completed_lessons": []
+    }
+  ],
+  "contact_messages": [
+    {
+      "message_id": 1,
+      "name": "Michael Vance",
+      "email": "michael.v@example.com",
+      "subject": "Corporate Team Training Inquiry",
+      "message": "Hello LEARNOVA team, we are interested in enrolling our engineering team of 25 developers in your Full-Stack and Cloud Computing tracks. Can you share bulk licensing pricing?",
+      "status": "read",
+      "created_at": "2026-03-02 08:30:00"
+    },
+    {
+      "message_id": 2,
+      "name": "Sophia Miller",
+      "email": "sophia.m@example.com",
+      "subject": "Instructor Partnership Application",
+      "message": "Hi! I am a senior data scientist and author. I would love to develop a specialized course on LLM agents on LEARNOVA.",
+      "status": "unread",
+      "created_at": "2026-03-05 11:20:00"
+    }
+  ]
+}
